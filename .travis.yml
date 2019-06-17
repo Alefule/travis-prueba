@@ -3,7 +3,9 @@ node_js:
  - node
 branches:
  only:
-   - masterscript:
+   - master
+
+script:
  - npm i
  - npm run test
 cache:
