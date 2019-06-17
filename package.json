@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "vows --spec"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alefule/travis-prueba.git"
