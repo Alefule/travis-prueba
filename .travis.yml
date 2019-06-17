@@ -11,3 +11,7 @@ script:
 cache:
  directories:
    - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: "8e99243d-6515-4d8f-97a2-6129fc9bd91b"
