@@ -1,1 +1,5 @@
-console.log("Hola Mundo");
+function sumar(num1, num2){
+    return num1 + num2;
+}
+
+sumar(3, 2);
