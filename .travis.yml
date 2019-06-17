@@ -17,3 +17,4 @@ deploy:
   app: travis-prueba
   on:
     repo: Alefule/travis-prueba
+  skip_cleanup: true
