@@ -1,0 +1,19 @@
+{
+  "name": "travis-prueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vows --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alefule/travis-prueba.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alefule/travis-prueba/issues"
+  },
+  "homepage": "https://github.com/Alefule/travis-prueba#readme"
+}
