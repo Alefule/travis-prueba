@@ -1,17 +1,19 @@
 language: node_js
 node_js:
- - node
+- node
 branches:
- only:
-   - master
-
+  only:
+  - master
 script:
- - npm i
- - npm run test
+- npm i
+- npm run test
 cache:
- directories:
-   - node_modules
+  directories:
+  - node_modules
 deploy:
   provider: heroku
   api_key:
-    secure: "8e99243d-6515-4d8f-97a2-6129fc9bd91b"
+    secure: iuiI5NjcaYSL1JrBP0ggmpFgi+BGnAEhHwO8y2gf3+UpJsUtVWEuoQrNcSoIXmve6EKn9a+YVAtfc2JA/o4CJzxVq4YZCMjuL4ahvaPJyWnFTywQw6KwYt5ILm1hliLe5WG68ZzvJnUutGH12tHf0/CbZ/DAfYN4gq02o78hROX/4/ynQesTwbv21JPhBWKtB6p7SAiA4UG2OJaCJ+GTAN29CK6E1OEpsxQ8HmlVZ/Wjk1+LI5exgWVPB7VFAXKbOMG4NMbMXYfL0esG0jc15NbFswNFO1xFNHIpgxgRVD3WFqol1liay9fdNEe10D8rxaFi5dCFNsJ2kWDWY0+rDeZsPTwH2latB9GpyXVauJ2+4WLz49aaKQUvGpTMVTw1E3sEDXHlNh0g1wxn3yErI9sxY+Ejdat4sIXDfJ2/ZFJLsn0Ts7P8B02YadLWNCCKkCBZ4+jxBzd9h2QYJFeS2cHhs4dMqfBtJGZIsR3DXfZQIjyD7GRB4Lxm4xyBJyVzK8Sbv7yBSYrDuS8NQGT9oGyaOeoH5rMRGx5AtXPhPoVgbd9Znx4zkjUJrSn43/Y8vKyal8PEs647Qw3H+meLcfqVDCQIPATFjsmnEBFJL4clx2kSv6I3z7RGeWf6LLO3tDIecxgpbLY9imJ/sCM9e5De77+hb7DeWWJdK7tlMCA=
+  app: travis-prueba
+  on:
+    repo: Alefule/travis-prueba
